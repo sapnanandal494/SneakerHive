@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SneakerHive — Own The Street</title>
+  <meta name="description" content="SneakerHive – Gen-Z sneaker culture starts here. Shop the hottest streetwear kicks, limited drops, and trending styles." />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>👟</text></svg>" />
+</head>
+<body>
+
+  <!-- Preloader -->
+  <div class="preloader" id="preloader">
+    <div class="preloader-spinner"></div>
+  </div>
+
+  <!-- Scroll Progress -->
+  <div class="scroll-progress" id="scrollProgress"></div>
+
+  <!-- Custom Cursor -->
+  <div class="cursor-glow" id="cursorGlow"></div>
+
+  <!-- Page Transition Overlay -->
+  <div class="page-transition" id="pageTransition"></div>
+
+  <!-- Floating Background Sneakers -->
+  <div class="floating-sneakers" id="floatingSneakers"></div>
+
+  <!-- ==================== NAVBAR ==================== -->
+  <nav class="navbar" id="navbar">
+    <a href="index.html" class="nav-logo">SNEAKERHIVE</a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="shop.html">Shop</a></li>
+      <li><a href="about.html">About</a></li>
+    </ul>
+    <div class="hamburger" id="hamburger">
+      <span></span><span></span><span></span>
+    </div>
+  </nav>
+
+  <!-- ==================== HERO ==================== -->
+  <section class="hero" id="hero">
+    <div class="hero-content" id="heroContent">
+      <h1 class="hero-el">Own The<br/>Street</h1>
+      <p class="hero-el">Gen-Z Sneaker Culture Starts Here</p>
+      <div class="hero-buttons hero-el">
+        <a href="shop.html" class="btn btn-primary page-link">Shop Now</a>
+        <button class="btn btn-ghost" id="btnGravity">Drop the Heat 🔥</button>
+      </div>
+    </div>
+    <button class="btn btn-ghost" id="btnReset" style="display:none; margin-top: 30px; position:relative; z-index:10;">Reset ↺</button>
+  </section>
+
+  <!-- ==================== FEATURED SNEAKERS ==================== -->
+  <section class="section" id="featured">
+    <h2 class="section-title reveal">Featured Drops</h2>
+    <p class="section-subtitle reveal">Fresh heat straight from the hive</p>
+
+    <div class="products-grid">
+      <!-- Card 1 -->
+      <div class="product-card reveal">
+        <div class="card-img">
+          <img src="images/sneaker1.png" alt="Neon Phantom High-Top" />
+          <div class="quick-view"><span>Quick View</span></div>
+        </div>
+        <div class="card-body">
+          <h3>Neon Phantom</h3>
+          <p class="price">$189</p>
+          <button class="btn-cart">Add to Cart 🛒</button>
+        </div>
+      </div>
+      <!-- Card 2 -->
+      <div class="product-card reveal">
+        <div class="card-img">
+          <img src="images/sneaker2.png" alt="Volt Runner Retro" />
+          <div class="quick-view"><span>Quick View</span></div>
+        </div>
+        <div class="card-body">
+          <h3>Volt Runner</h3>
+          <p class="price">$159</p>
+          <button class="btn-cart">Add to Cart 🛒</button>
+        </div>
+      </div>
+      <!-- Card 3 -->
+      <div class="product-card reveal">
+        <div class="card-img">
+          <img src="images/sneaker3.png" alt="Shadow Skate Low" />
+          <div class="quick-view"><span>Quick View</span></div>
+        </div>
+        <div class="card-body">
+          <h3>Shadow Skate</h3>
+          <p class="price">$139</p>
+          <button class="btn-cart">Add to Cart 🛒</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="footer">
+    <span class="footer-logo">SNEAKERHIVE</span>
+    <p class="footer-copy">&copy; 2026 SneakerHive. All rights reserved.</p>
+    <div class="footer-socials">
+      <a href="#" aria-label="Instagram">📸</a>
+      <a href="#" aria-label="Twitter">🐦</a>
+      <a href="#" aria-label="TikTok">🎵</a>
+      <a href="#" aria-label="YouTube">▶️</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
